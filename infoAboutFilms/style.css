@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("https://www.indiewire.com/wp-content/uploads/2014/02/the-films-of-hayao-miyazaki.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0 0 0;
+}
+
+.film {
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  list-style: none;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.film-description {
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.film li {
+  width: 100%;
+  padding: 10px 0 10px 2px;
+}
+
+.info {
+  background-color: rgba(0, 0, 0, 0.1);
+}
